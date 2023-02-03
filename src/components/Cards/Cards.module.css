@@ -1,0 +1,24 @@
+.cardsDiv {
+  width: 100vw;
+  height: 200vh;
+  background-image: url(../Card/img/bgg.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  display: flex;
+}
+@media (max-width: 500px) {
+  .cardsDiv {
+    background-image: url(../Card/img/bgm2.jpg);
+    width: 100vw;
+    height: fit-content;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+  }
+}

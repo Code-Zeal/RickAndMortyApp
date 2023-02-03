@@ -1,0 +1,96 @@
+html {
+  background: rgb(32, 32, 32);
+  width: 100vw;
+  height: auto;
+}
+body {
+  width: inherit;
+  height: auto;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: inherit;
+  height: 600px;
+  background-color: rgb(32, 32, 32);
+}
+.form {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(23, 36, 24);
+  border-radius: 5px;
+  box-shadow: 2px 1px 37px 18px rgba(60, 182, 74, 0.76);
+}
+.imgForm {
+  width: 250px;
+  margin-bottom: 50px;
+}
+.input {
+  margin-bottom: 50px;
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: rgb(218, 232, 203);
+}
+input::placeholder {
+  color: rgb(58, 55, 55);
+  font-weight: 300;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+}
+
+.ingresar {
+  background-color: rgb(81, 176, 179);
+  box-shadow: 0px 0px 30px 4px rgba(60, 182, 74, 0.76);
+  border: 0;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  font-weight: 900;
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 20px;
+}
+.rick {
+  width: 300px;
+}
+.rickError {
+  width: 250px;
+  margin-left: 50px;
+}
+.morty {
+  width: 300px;
+}
+.mortyError {
+  width: 300px;
+}
+.error {
+  margin-top: -15px;
+  color: rgb(237, 23, 23);
+  border-radius: 0px;
+}
+
+@media (max-width: 1000px) {
+  .rick {
+    display: none;
+  }
+  .rickError {
+    display: none;
+  }
+  .morty {
+    display: none;
+  }
+  .mortyError {
+    display: none;
+  }
+}
+.main {
+  justify-content: center;
+}
